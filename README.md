@@ -12,7 +12,7 @@ src
 ├── hooks # Hooks personalizados para permisos del dispositivo y otra lógica
 └── pages # Pantallas o páginas de la aplicación, por ejemplo, UsuarioPage
 
-## Step 1 Paso 1 - Componentes y Hooks
+## Paso 1 - Componentes y Hooks
 
 Componentes Personalizados
 CustomButton: Componente de botón reutilizable con estilos y comportamiento personalizados.
@@ -35,7 +35,7 @@ Registros agregados
 <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
 <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
 
-## Step 1 Paso 2 - Características Clave
+## Paso 2 - Características Clave
 
 Captura imágenes con la cámara del dispositivo y las guarda localmente.
 Gestión de datos de usuarios usando AsyncStorage (crear, editar, eliminar).
