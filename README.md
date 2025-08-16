@@ -28,12 +28,10 @@ Integra CustomButton y CustomInput.
 Permite tomar fotos con la cámara y guardar la información del usuario en AsyncStorage.
 Muestra la lista de usuarios con imágenes de perfil en forma circular y funcionalidades de editar/eliminar.
 
-Registros agregados
-<uses-permission android:name="android.permission.CAMERA" />
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-<uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-<uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+La app requiere los siguientes permisos en Android:
+- `CAMERA`: para tomar fotos desde la app.
+- `READ_EXTERNAL_STORAGE` / `WRITE_EXTERNAL_STORAGE`: para leer y guardar archivos en el almacenamiento (Android < 13).
+- `READ_MEDIA_IMAGES` / `READ_MEDIA_VIDEO`: para acceder a imágenes y videos en Android 13+.
 
 ## Paso 2 - Características Clave
 
